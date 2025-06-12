@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    build: .
+    container_name: gpu-reservation-backend
+    volumes:
+      - ./app:/app/app                 # コードをマウントしてホットリロード
+      - ./data:/app/data               # SQLite DB を永続化するなら
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY} 
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}
+    restart: unless-stopped
