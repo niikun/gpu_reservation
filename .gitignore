@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+
+# Logs and SQLite database files
+*.sqlite3
+*.db
+data/
+
+# Docker
+docker-compose.override.yml
+*.log
+
+# IDE / Editor
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+pylint.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/

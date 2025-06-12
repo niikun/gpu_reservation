@@ -1,0 +1,22 @@
+# fastapi
+fastapi
+uvicorn[standard]
+
+# データベース
+sqlalchemy
+aiosqlite
+
+# Pydantic
+pydantic
+
+♯ 開発環境
+python-dotenv
+
+# 開発補助
+pytest
+black
+pylint
+
+# LLM
+langchain
+langchain-openai
