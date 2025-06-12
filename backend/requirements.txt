@@ -16,6 +16,7 @@ python-dotenv
 pytest
 black
 pylint
+flake8
 
 # LLM
 langchain
