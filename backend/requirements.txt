@@ -1,23 +1,13 @@
-# fastapi
-fastapi
-uvicorn[standard]
-
-# データベース
-sqlalchemy
-aiosqlite
-
-# Pydantic
-pydantic
-
-# 開発環境
-python-dotenv
-
-# 開発補助 
-pytest
-black
-pylint
-flake8
-
-# LLM
-langchain
-langchain-openai
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+pydantic[email]>=2.0.0
+python-dotenv>=1.0.0
+openai>=0.28.0
+langchain>=0.0.300
+chromadb>=0.4.0
+httpx>=0.24.0
+pytest>=7.0.0
+black>=24.3.0
+flake8>=6.0.0
